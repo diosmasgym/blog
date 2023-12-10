@@ -1,8 +1,28 @@
-/* banner.css */
-#promotionalBanner {
-    /* Estilos del banner */
-    background-color: #3498db;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
+/* Estilo para el banner */
+.app-banner {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #4CAF50; /* Cambia el color de fondo según tus preferencias */
+  padding: 10px;
+  text-align: center;
+  color: #fff; /* Cambia el color del texto según tus preferencias */
+  z-index: 9999;
+}
+
+/* Estilo para el enlace en el banner */
+.app-link {
+  color: #fff; /* Cambia el color del enlace según tus preferencias */
+  text-decoration: underline;
+}
+
+/* Estilo para el botón de cierre del banner */
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: #fff; /* Cambia el color del botón según tus preferencias */
+  cursor: pointer;
 }
