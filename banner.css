@@ -1,5 +1,5 @@
 /* Estilo para el banner popup */
-.app-popup {
+#app-popup {
   display: none;
   position: fixed;
   top: 50%;
