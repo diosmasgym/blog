@@ -1,0 +1,8 @@
+/* banner.css */
+#promotionalBanner {
+    /* Estilos del banner */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
