@@ -1,24 +1,25 @@
-/* Estilo para el banner */
-.app-banner {
+/* Estilo para el banner popup */
+.app-popup {
   display: none;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background: #4CAF50; /* Cambia el color de fondo según tus preferencias */
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: #fff; /* Cambia el color del texto según tus preferencias */
+  border-radius: 10px;
   z-index: 9999;
 }
 
-/* Estilo para el enlace en el banner */
+/* Estilo para el enlace en el banner popup */
 .app-link {
   color: #fff; /* Cambia el color del enlace según tus preferencias */
   text-decoration: underline;
 }
 
-/* Estilo para el botón de cierre del banner */
+/* Estilo para el botón de cierre del banner popup */
 .close-btn {
   position: absolute;
   top: 5px;
